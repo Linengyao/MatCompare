@@ -18,6 +18,7 @@ int main()
 	int height = srcMat.rows; //行数
 	int width = srcMat.cols;//每行元素数量
 	uchar threshold = 100;
+
 	for (int j = 0; j < height; j++)
 	{
 		for (int i = 0; i < width; i++)
